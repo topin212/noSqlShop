@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SherEShop", "SherEShop/SherEShop.xproj", "{3F0896C5-2AB6-4FDD-8622-FE72FD147037}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SherEShop.Tests", "SherEShop.Tests\SherEShop.Tests.xproj", "{BF1C9CB3-9795-4FCA-8612-BC2FA1CC8C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F0896C5-2AB6-4FDD-8622-FE72FD147037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0896C5-2AB6-4FDD-8622-FE72FD147037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0896C5-2AB6-4FDD-8622-FE72FD147037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0896C5-2AB6-4FDD-8622-FE72FD147037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1C9CB3-9795-4FCA-8612-BC2FA1CC8C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1C9CB3-9795-4FCA-8612-BC2FA1CC8C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1C9CB3-9795-4FCA-8612-BC2FA1CC8C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1C9CB3-9795-4FCA-8612-BC2FA1CC8C49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

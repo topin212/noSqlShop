@@ -1,0 +1,9 @@
+[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+packages/
+project.lock.json/
+shopdb.db
+shopdb-journal.db
+.idea/
