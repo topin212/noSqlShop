@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Localization;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using SherEShop.Server.MiddleWare;
 using SherEShop.Utilities;
 
 
@@ -13,6 +11,7 @@ namespace SherEShop.Server
         public void Configure(IApplicationBuilder app)
         {
             app.UseDeveloperExceptionPage()
+                .UseAuthorization()
                 .UseStaticFiles()
                 .UseDefaultFiles();
             app.UseMvc(routes => { routes.MapRoute("default", "api/{controller=Entry}/{action=Index}/{id?}"); });

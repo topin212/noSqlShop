@@ -43,9 +43,19 @@ namespace SherEShop.Utilities
             return Products.Find(Query.All());
         }
 
+        public IEnumerable<User> GetAllUsers()
+        {
+            return Users.FindAll();
+        }
+
         public User GetUser(int id)
         {
             return Users.FindById(id);
+        }
+
+        public User GetUser(string email)
+        {
+            return Users.FindOne(usr => usr.Email == email);
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
-
 using SherEShop.Server;
-using SherEShop.Server.Common.DummyDataProvider;
-using SherEShop.Utilities;
 
 namespace SherEShop
 {
@@ -10,7 +7,7 @@ namespace SherEShop
     {
         public static void Main(string[] args)
         {
-            DummyGenerator.GenerateDatabase();
+            //DummyGenerator.GenerateDatabase();
 
             Console.WriteLine("Hello world");
             var server = new Servovec();

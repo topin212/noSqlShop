@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography;
-using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using SherEShop.Server.Common;
 using SherEShop.Utilities;
@@ -15,7 +13,6 @@ namespace SherEShop.Server.Controllers
         {
             _storage = storage;
         }
-
 
         [HttpPost]
         public IActionResult Index([FromBody] User user)
